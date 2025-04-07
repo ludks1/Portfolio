@@ -4,6 +4,7 @@ import Navbar from "../components/shared/Navbar";
 import HeroSection from "./home/HeroSection";
 import AboutSection from "./home/AboutSection";
 import Skills from "./home/Skills";
+import ContactSection from "./home/ContactSection";
 
 export default function Index() {
   return (
@@ -12,6 +13,7 @@ export default function Index() {
       <HeroSection />
       <AboutSection />
       <Skills />
+      <ContactSection />
       <Footer />
     </Container>
   );
