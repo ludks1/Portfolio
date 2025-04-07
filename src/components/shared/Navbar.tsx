@@ -13,7 +13,7 @@ import theme from "../../styles/theme";
 import { MouseEvent, useState } from "react";
 import { MenuSharp } from "@mui/icons-material";
 
-const pages = ["HOME", "SERVICES", "SKILLS", "PORTFOLIO", "CONTACT"];
+const pages = ["HOME", "ABOUT", "SKILLS", "PORTFOLIO", "CV"];
 const ITEM_HEIGHT = 48;
 
 export default function Navbar() {
