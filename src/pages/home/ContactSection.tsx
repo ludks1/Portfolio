@@ -14,7 +14,7 @@ export default function ContactSection() {
 
   const handleDownloadCV = () => {
     const link = document.createElement("a");
-    link.href = "/src/assets/cv.pdf";
+    link.href = "/cv.pdf";
     link.download = "Ludwind_CV.pdf";
     document.body.appendChild(link);
     link.click();

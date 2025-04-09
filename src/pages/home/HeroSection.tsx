@@ -50,7 +50,7 @@ export default function HeroSection() {
           }}
         >
           <motion.img
-            src="/src/assets/hero.png"
+            src="/public/hero.png"
             alt="Ludwind Rotstein"
             className="rounded-xl shadow-lg"
             initial={{ opacity: 0, y: -150 }}
