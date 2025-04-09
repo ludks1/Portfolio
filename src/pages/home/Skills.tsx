@@ -14,35 +14,35 @@ import theme from "../../styles/theme";
 const technicalSkills = [
   {
     name: "React TSX",
-    icon: "/src/assets/react.png",
+    icon: "//src/assets/react.png",
     description:
       "Built responsive, component-based interfaces using React and TypeScript",
   },
   {
     name: "Java",
-    icon: "src/assets/java.png",
+    icon: "/src/assets/java.png",
     description:
       "Developed backend systems and desktop applications using object-oriented programming",
   },
   {
     name: "Spring Boot",
-    icon: "src/assets/spring-boot.png",
+    icon: "/src/assets/spring-boot.png",
     description:
       "Created RESTful APIs and managed data persistence in full-stack web applications",
   },
   {
     name: "Python",
-    icon: "src/assets/python.png",
+    icon: "/src/assets/python.png",
     description: "Worked on artificial vision, data analysis projects",
   },
   {
     name: "Web Development",
-    icon: "src/assets/web-dev.png",
+    icon: "/src/assets/web-dev.png",
     description: "Designed and built web pages with HTML, CSS, and JavaScript",
   },
   {
     name: "SQL",
-    icon: "src/assets/sql.png",
+    icon: "/src/assets/sql.png",
     description:
       "Managed relational databases and wrote queries for data handling",
   },
@@ -81,7 +81,7 @@ const softSkills = [
   },
   {
     name: "Creativity",
-    icon: "src/assets/creativity.png",
+    icon: "/src/assets/creativity.png",
     description:
       "I enjoy thinking outside the box, turning ideas into functional solutions, and pushing the boundaries of what’s possible. ",
   },
