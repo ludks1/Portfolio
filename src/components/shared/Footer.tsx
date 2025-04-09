@@ -18,7 +18,8 @@ export default function Footer() {
     >
       <footer>
         <Typography variant="body2" color="inherit">
-          &copy; {new Date().getFullYear()} Ludwind. All rights reserved.
+          &copy; {new Date().getFullYear()} Ludwind Rotstein. All rights
+          reserved.
         </Typography>
       </footer>
     </Box>

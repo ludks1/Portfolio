@@ -12,11 +12,12 @@ import {
 import theme from "../../styles/theme";
 import { MouseEvent, useState } from "react";
 import { MenuSharp } from "@mui/icons-material";
+import { NavbarProps } from "../../types/NavbarProps";
 
 const pages = ["HOME", "ABOUT", "SKILLS", "PORTFOLIO", "CV"];
 const ITEM_HEIGHT = 48;
 
-export default function Navbar() {
+export default function Navbar({ sectionRefs }: NavbarProps) {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const isDesktop = useMediaQuery(theme.breakpoints.up("lg"));
   const open = Boolean(anchorEl);
@@ -24,8 +25,14 @@ export default function Navbar() {
   const handleClick = (event: MouseEvent<HTMLElement>) => {
     setAnchorEl(event.currentTarget);
   };
+
   const handleClose = () => {
     setAnchorEl(null);
+  };
+
+  const scrollToSection = (section: string) => {
+    const ref = sectionRefs[section];
+    if (ref?.current) ref.current.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
@@ -58,6 +65,7 @@ export default function Navbar() {
               {pages.map((page) => (
                 <Button
                   key={page}
+                  onClick={() => scrollToSection(page)}
                   sx={{
                     color: theme.palette.secondary.contrastText,
                     "&:hover": { color: theme.palette.primary.main },
@@ -97,7 +105,10 @@ export default function Navbar() {
                 {pages.map((page) => (
                   <MenuItem
                     key={page}
-                    onClick={handleClose}
+                    onClick={() => {
+                      scrollToSection(page);
+                      handleClose();
+                    }}
                     sx={{
                       "&:hover": {
                         backgroundColor: theme.palette.secondary.main,

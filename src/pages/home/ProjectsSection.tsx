@@ -12,8 +12,8 @@ import theme from "../../styles/theme";
 
 const projects = [
   {
-    name: "Coming Soon",
-    icon: "/api.png",
+    name: "Task Manager",
+    icon: "/soon.png",
     description: "This project is currently under development.",
     link: "https://github.com/ludks1",
   },
