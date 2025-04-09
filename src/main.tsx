@@ -21,7 +21,7 @@ root.render(
               "linear-gradient(135deg, #121212, #1A1A2E, #2C003E)",
             backgroundAttachment: "fixed",
             backgroundSize: "cover",
-            minHeight: "100vh",
+            minHeight: "100%",
             width: "100%",
           },
         }}

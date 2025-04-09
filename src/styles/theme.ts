@@ -24,7 +24,7 @@ const theme = createTheme({
 
     background: {
       default: "#121212",
-      paper: "#1A1A2E",
+      paper: "rgba(255, 255, 255, 0.17)",
       /*
       gradient does not exist in the default theme with the type 'TypeBackground'
       so we have to add it manually in the module declaration above
