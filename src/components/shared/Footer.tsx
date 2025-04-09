@@ -1,18 +1,25 @@
-import { Box } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import theme from "../../styles/theme";
 
 export default function Footer() {
   return (
     <Box
       sx={{
-        bgcolor: theme.palette.background.default,
-        color: theme.palette.text.primary,
+        bgcolor: theme.palette.background.gradient,
+        color: theme.palette.text.secondary,
+        borderRadius: 4,
+        border: `1px solid ${theme.palette.secondary.main}`,
+        width: "80%",
+        mx: "auto",
+        my: 2,
         py: 2,
-        background: theme.palette.background.gradient,
+        textAlign: "center",
       }}
     >
       <footer>
-        <p>Footer</p>
+        <Typography variant="body2" color="inherit">
+          &copy; {new Date().getFullYear()} Ludwind. All rights reserved.
+        </Typography>
       </footer>
     </Box>
   );

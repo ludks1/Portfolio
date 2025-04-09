@@ -5,6 +5,7 @@ import HeroSection from "./home/HeroSection";
 import AboutSection from "./home/AboutSection";
 import Skills from "./home/Skills";
 import ContactSection from "./home/ContactSection";
+import Projects from "./home/ProjectsSection";
 
 export default function Index() {
   return (
@@ -13,6 +14,7 @@ export default function Index() {
       <HeroSection />
       <AboutSection />
       <Skills />
+      <Projects />
       <ContactSection />
       <Footer />
     </Container>

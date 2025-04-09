@@ -2,49 +2,20 @@ import {
   Box,
   Card,
   CardContent,
-  CardHeader,
   CardMedia,
   Container,
-  Fade,
   Grid,
   Typography,
 } from "@mui/material";
+import { motion } from "framer-motion";
 import theme from "../../styles/theme";
 
 const projects = [
   {
-    name: "React TSX",
-    icon: "/react.png",
-    description:
-      "Built responsive, component-based interfaces using React and TypeScript",
-  },
-  {
-    name: "Java",
-    icon: "/java.png",
-    description:
-      "Developed backend systems and desktop applications using object-oriented programming",
-  },
-  {
-    name: "Spring Boot",
-    icon: "/spring-boot.png",
-    description:
-      "Created RESTful APIs and managed data persistence in full-stack web applications",
-  },
-  {
-    name: "Python",
-    icon: "/python.png",
-    description: "Worked on artificial vision, data analysis projects",
-  },
-  {
-    name: "Web Development",
-    icon: "/web-dev.png",
-    description: "Designed and built web pages with HTML, CSS, and JavaScript",
-  },
-  {
-    name: "SQL",
-    icon: "/sql.png",
-    description:
-      "Managed relational databases and wrote queries for data handling",
+    name: "Coming Soon",
+    icon: "/api.png",
+    description: "This project is currently under development.",
+    link: "https://github.com/ludks1",
   },
 ];
 
@@ -52,42 +23,52 @@ export default function Projects() {
   return (
     <Box sx={{ marginTop: 4 }}>
       <Container sx={{ marginTop: 4, marginBottom: 4 }}>
-        <Typography variant="h4">Soft Skills</Typography>
-        <Grid container spacing={3} sx={{ marginTop: 2 }}>
+        <Typography variant="h4" gutterBottom>
+          Projects
+        </Typography>
+        <Grid container spacing={4}>
           {projects.map((project, index) => (
             <Grid item xs={12} sm={6} md={4} key={index}>
-              <Fade in={true} timeout={1000}>
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.98 }}
+                transition={{ type: "spring", stiffness: 300 }}
+              >
                 <Card
                   sx={{
                     background: theme.palette.background.paper,
-                    backdropFilter: "blur(10px)",
-                    p: 3,
-                    borderRadius: 5,
-                    boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.5)",
+                    borderRadius: 4,
+                    boxShadow: "0px 8px 16px rgba(0,0,0,0.25)",
                     height: "100%",
-                    minHeight: 250,
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "space-between",
+                    cursor: "pointer",
+                    p: 2,
                   }}
+                  onClick={() => window.open(project.link, "_blank")}
                 >
-                  <CardHeader
-                    title={project.name}
-                    sx={{ textAlign: "center" }}
-                  />
                   <CardMedia
                     component="img"
-                    height="100"
+                    height="140"
                     image={project.icon}
                     alt={project.name}
-                    sx={{
-                      objectFit: "contain",
-                    }}
+                    sx={{ objectFit: "contain", marginBottom: 2 }}
                   />
                   <CardContent>
-                    <Typography variant="body1">
+                    <Typography
+                      variant="h6"
+                      align="center"
+                      sx={{ fontWeight: "bold" }}
+                    >
+                      {project.name}
+                    </Typography>
+                    <Typography variant="body2" align="center">
                       {project.description}
                     </Typography>
                   </CardContent>
                 </Card>
-              </Fade>
+              </motion.div>
             </Grid>
           ))}
         </Grid>
