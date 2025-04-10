@@ -13,7 +13,7 @@ import theme from "../../styles/theme";
 const projects = [
   {
     name: "Task Manager",
-    icon: "/public/soon.png",
+    icon: "/soon.png",
     description: "This project is currently under development.",
     link: "https://github.com/ludks1",
   },

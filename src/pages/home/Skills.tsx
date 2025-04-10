@@ -14,35 +14,35 @@ import theme from "../../styles/theme";
 const technicalSkills = [
   {
     name: "React TSX",
-    icon: "/public/react.png",
+    icon: "/react.png",
     description:
       "Built responsive, component-based interfaces using React and TypeScript",
   },
   {
     name: "Java",
-    icon: "/public/java.png",
+    icon: "/java.png",
     description:
       "Developed backend systems and desktop applications using object-oriented programming",
   },
   {
     name: "Spring Boot",
-    icon: "/public/spring-boot.png",
+    icon: "/spring-boot.png",
     description:
       "Created RESTful APIs and managed data persistence in full-stack web applications",
   },
   {
     name: "Python",
-    icon: "/public/python.png",
+    icon: "/python.png",
     description: "Worked on artificial vision, data analysis projects",
   },
   {
     name: "Web Development",
-    icon: "/public/web-dev.png",
+    icon: "/web-dev.png",
     description: "Designed and built web pages with HTML, CSS, and JavaScript",
   },
   {
     name: "SQL",
-    icon: "/public/sql.png",
+    icon: "/sql.png",
     description:
       "Managed relational databases and wrote queries for data handling",
   },
@@ -51,37 +51,37 @@ const technicalSkills = [
 const softSkills = [
   {
     name: "Problem-Solving",
-    icon: "/public/problem.png",
+    icon: "/problem.png",
     description:
       " I enjoy tackling complex challenges and continuously improving my skills, whether through coding challenges or working on my personal projects.",
   },
   {
     name: "Teamwork",
-    icon: "/public/team.png",
+    icon: "/team.png",
     description:
       "I have worked with interdisciplinary teams, contributing to system integration and maintenance while ensuring smooth communication and efficient workflows.",
   },
   {
     name: "Self-Learning",
-    icon: "/public/learning.png",
+    icon: "/learning.png",
     description:
       "I consider myself a self-learner who thrives on acquiring new knowledge. Learning Spring Boot, React.tsx, Java, and Python has taught me to adapt quickly and stay up to date with the latest technologies.",
   },
   {
     name: "Adaptability",
-    icon: "/public/adaptability.png",
+    icon: "/adaptability.png",
     description:
       "I stay committed to my goals, push through obstacles, and keep moving forward whether in coding, learning, or personal growth.",
   },
   {
     name: "Project Organization",
-    icon: "/public/organization.png",
+    icon: "/organization.png",
     description:
       "I worked leading a team of five in developing a scheduling system has taught me how to plan, prioritize tasks, and coordinate effectively to meet deadlines.",
   },
   {
     name: "Creativity",
-    icon: "/public/creativity.png",
+    icon: "/creativity.png",
     description:
       "I enjoy thinking outside the box, turning ideas into functional solutions, and pushing the boundaries of what’s possible. ",
   },
