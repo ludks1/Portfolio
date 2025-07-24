@@ -1,7 +1,9 @@
 import { Box, Typography, useMediaQuery } from "@mui/material";
 import theme from "../../styles/theme";
+import { useTranslation } from 'react-i18next';
 
 export default function AboutSection() {
+  const { t } = useTranslation();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
   return (
@@ -21,12 +23,10 @@ export default function AboutSection() {
             marginTop: 0,
           }}
         >
-          Know About Me
+          {t('about.title')}
         </Typography>
         <Typography variant="body1">
-          I'm Ludwind, a Software Engineer passionate about building innovative
-          tech solutions. I focus on developing high-quality products that solve
-          real problems and deliver value. Always learning, always creating.
+          {t('about.description')}
         </Typography>
       </Box>
     </>
