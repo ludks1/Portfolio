@@ -1,7 +1,10 @@
 import { Box, Typography } from "@mui/material";
 import theme from "../../styles/theme";
+import { useTranslation } from 'react-i18next';
 
 export default function Footer() {
+  const { t } = useTranslation();
+  
   return (
     <Box
       sx={{
@@ -18,8 +21,7 @@ export default function Footer() {
     >
       <footer>
         <Typography variant="body2" color="inherit">
-          &copy; {new Date().getFullYear()} Ludwind Rotstein. All rights
-          reserved.
+          &copy; {new Date().getFullYear()} Ludwind Rotstein. {t('footer.copyright')}
         </Typography>
       </footer>
     </Box>
