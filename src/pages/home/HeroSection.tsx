@@ -1,8 +1,10 @@
 import { Box, Typography, useMediaQuery } from "@mui/material";
 import * as motion from "motion/react-client";
 import theme from "../../styles/theme";
+import { useTranslation } from 'react-i18next';
 
 export default function HeroSection() {
+  const { t } = useTranslation();
   const isTablet = useMediaQuery(theme.breakpoints.between("sm", "lg"));
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
@@ -32,12 +34,10 @@ export default function HeroSection() {
           variant={isMobile ? "h3" : isTablet ? "h2" : "h1"}
           gutterBottom
         >
-          Software Engineer Student
+          {t('hero.title')}
         </Typography>
         <Typography variant={isMobile ? "body1" : "h6"}>
-          I'm Ludwind, a Software Engineer passionate about building innovative
-          tech solutions. I focus on developing high-quality products that solve
-          real problems and deliver value. Always learning, always creating.
+          {t('hero.description')}
         </Typography>
       </Box>
       {/* Image Section */}
@@ -51,7 +51,7 @@ export default function HeroSection() {
         >
           <motion.img
             src="/hero.png"
-            alt="Ludwind Rotstein"
+            alt={t('hero.altText')}
             className="rounded-xl shadow-lg"
             initial={{ opacity: 0, y: -150 }}
             animate={{ opacity: 1, y: 0 }}
