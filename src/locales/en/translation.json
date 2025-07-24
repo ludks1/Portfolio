@@ -1,0 +1,90 @@
+{
+  "hero": {
+    "title": "Software Engineer Student",
+    "description": "I transform ideas into modern and functional web solutions.",
+    "altText": "Ludwind Rotstein"
+  },
+  "about": {
+    "title": "Know About Me",
+    "description": "I'm Ludwind, a Software Engineer passionate about building innovative tech solutions. I focus on developing high-quality products that solve real problems and deliver value. Always learning, always creating."
+  },
+  "projects": {
+    "title": "Projects",
+    "taskManager": {
+      "name": "Task Manager",
+      "description": "This project is currently under development."
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "technicalSkills": "Technical Skills",
+    "softSkills": "Soft Skills",
+    "technical": {
+      "react": {
+        "name": "React TSX",
+        "description": "Built responsive, component-based interfaces using React and TypeScript"
+      },
+      "java": {
+        "name": "Java",
+        "description": "Developed backend systems and desktop applications using object-oriented programming"
+      },
+      "springBoot": {
+        "name": "Spring Boot",
+        "description": "Created RESTful APIs and managed data persistence in full-stack web applications"
+      },
+      "python": {
+        "name": "Python",
+        "description": "Worked on artificial vision, data analysis projects"
+      },
+      "webDev": {
+        "name": "Web Development",
+        "description": "Designed and built web pages with HTML, CSS, and JavaScript"
+      },
+      "sql": {
+        "name": "SQL",
+        "description": "Managed relational databases and wrote queries for data handling"
+      }
+    },
+    "soft": {
+      "problemSolving": {
+        "name": "Problem-Solving",
+        "description": "I enjoy tackling complex challenges and continuously improving my skills, whether through coding challenges or working on my personal projects."
+      },
+      "teamwork": {
+        "name": "Teamwork",
+        "description": "I have worked with interdisciplinary teams, contributing to system integration and maintenance while ensuring smooth communication and efficient workflows."
+      },
+      "selfLearning": {
+        "name": "Self-Learning",
+        "description": "I consider myself a self-learner who thrives on acquiring new knowledge. Learning Spring Boot, React.tsx, Java, and Python has taught me to adapt quickly and stay up to date with the latest technologies."
+      },
+      "adaptability": {
+        "name": "Adaptability",
+        "description": "I stay committed to my goals, push through obstacles, and keep moving forward whether in coding, learning, or personal growth."
+      },
+      "organization": {
+        "name": "Project Organization",
+        "description": "I worked leading a team of five in developing a scheduling system has taught me how to plan, prioritize tasks, and coordinate effectively to meet deadlines."
+      },
+      "creativity": {
+        "name": "Creativity",
+        "description": "I enjoy thinking outside the box, turning ideas into functional solutions, and pushing the boundaries of what's possible."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Want to know more about my background and experience? Download my CV below.",
+    "downloadCV": "Download CV"
+  },
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "portfolio": "Portfolio",
+    "cv": "CV"
+  },
+  "footer": {
+    "copyright": "All rights reserved."
+  }
+}
