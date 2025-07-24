@@ -8,8 +8,10 @@ import {
 } from "@mui/material";
 import { LinkedIn, GitHub, Email, Download } from "@mui/icons-material";
 import theme from "../../styles/theme";
+import { useTranslation } from 'react-i18next';
 
 export default function ContactSection() {
+  const { t } = useTranslation();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
   const handleDownloadCV = () => {
@@ -30,12 +32,11 @@ export default function ContactSection() {
       }}
     >
       <Typography variant="h4" gutterBottom>
-        Contact
+        {t('contact.title')}
       </Typography>
 
       <Typography variant="h5" sx={{ mb: 3 }}>
-        Want to know more about my background and experience? Download my CV
-        below.
+        {t('contact.description')}
       </Typography>
 
       <Stack
@@ -48,7 +49,7 @@ export default function ContactSection() {
           startIcon={<Download />}
           onClick={handleDownloadCV}
         >
-          Download CV
+          {t('contact.downloadCV')}
         </Button>
 
         <Stack direction="row" spacing={1}>
