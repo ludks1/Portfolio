@@ -1,0 +1,90 @@
+{
+  "hero": {
+    "title": "Estudiante de Ingeniería de Software",
+    "description": "Transformo ideas en soluciones web modernas y funcionales.",
+    "altText": "Ludwind Rotstein"
+  },
+  "about": {
+    "title": "Conoceme",
+    "description": "Soy Ludwind, un Ingeniero de Software apasionado por construir soluciones tecnológicas innovadoras. Me enfoco en desarrollar productos de alta calidad que resuelvan problemas reales y aporten valor. Siempre aprendiendo, siempre creando."
+  },
+  "projects": {
+    "title": "Proyectos",
+    "taskManager": {
+      "name": "Gestor de Tareas",
+      "description": "Este proyecto está actualmente en desarrollo."
+    }
+  },
+  "skills": {
+    "title": "Habilidades",
+    "technicalSkills": "Habilidades Técnicas",
+    "softSkills": "Habilidades Blandas",
+    "technical": {
+      "react": {
+        "name": "React TSX",
+        "description": "Construí interfaces responsivas basadas en componentes usando React y TypeScript"
+      },
+      "java": {
+        "name": "Java",
+        "description": "Desarrollé sistemas backend y aplicaciones de escritorio usando programación orientada a objetos"
+      },
+      "springBoot": {
+        "name": "Spring Boot",
+        "description": "Creé APIs RESTful y gestioné la persistencia de datos en aplicaciones web full-stack"
+      },
+      "python": {
+        "name": "Python",
+        "description": "Trabajé en proyectos de visión artificial y análisis de datos"
+      },
+      "webDev": {
+        "name": "Desarrollo Web",
+        "description": "Diseñé y construí páginas web con HTML, CSS y JavaScript"
+      },
+      "sql": {
+        "name": "SQL",
+        "description": "Gestioné bases de datos relacionales y escribí consultas para el manejo de datos"
+      }
+    },
+    "soft": {
+      "problemSolving": {
+        "name": "Resolución de Problemas",
+        "description": "Disfruto enfrentando desafíos complejos y mejorando continuamente mis habilidades, ya sea a través de desafíos de programación o trabajando en mis proyectos personales."
+      },
+      "teamwork": {
+        "name": "Trabajo en Equipo",
+        "description": "He trabajado con equipos interdisciplinarios, contribuyendo a la integración y mantenimiento de sistemas mientras aseguro una comunicación fluida y flujos de trabajo eficientes."
+      },
+      "selfLearning": {
+        "name": "Autoaprendizaje",
+        "description": "Me considero un autodidacta que prospera adquiriendo nuevos conocimientos. Aprender Spring Boot, React.tsx, Java y Python me ha enseñado a adaptarme rápidamente y mantenerme actualizado con las últimas tecnologías."
+      },
+      "adaptability": {
+        "name": "Adaptabilidad",
+        "description": "Me mantengo comprometido con mis objetivos, supero obstáculos y sigo avanzando ya sea en programación, aprendizaje o crecimiento personal."
+      },
+      "organization": {
+        "name": "Organización de Proyectos",
+        "description": "Trabajé liderando un equipo de cinco personas en el desarrollo de un sistema de programación, lo que me enseñó cómo planificar, priorizar tareas y coordinar efectivamente para cumplir plazos."
+      },
+      "creativity": {
+        "name": "Creatividad",
+        "description": "Disfruto pensar fuera de la caja, convertir ideas en soluciones funcionales y empujar los límites de lo que es posible."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "description": "¿Quieres saber más sobre mi experiencia y antecedentes? Descarga mi CV a continuación.",
+    "downloadCV": "Descargar CV"
+  },
+  "navbar": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "skills": "Habilidades",
+    "portfolio": "Portafolio",
+    "cv": "CV"
+  },
+  "footer": {
+    "copyright": "Todos los derechos reservados."
+  }
+}
