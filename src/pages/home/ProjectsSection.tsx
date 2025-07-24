@@ -9,22 +9,24 @@ import {
 } from "@mui/material";
 import { motion } from "framer-motion";
 import theme from "../../styles/theme";
-
-const projects = [
-  {
-    name: "Task Manager",
-    icon: "/soon.png",
-    description: "This project is currently under development.",
-    link: "https://github.com/ludks1",
-  },
-];
+import { useTranslation } from 'react-i18next';
 
 export default function Projects() {
+  const { t } = useTranslation();
+  
+  const projects = [
+    {
+      name: t('projects.taskManager.name'),
+      icon: "/soon.png",
+      description: t('projects.taskManager.description'),
+      link: "https://github.com/ludks1",
+    },
+  ];
   return (
     <Box sx={{ marginTop: 4 }}>
       <Container sx={{ marginTop: 4, marginBottom: 4 }}>
         <Typography variant="h4" gutterBottom>
-          Projects
+          {t('projects.title')}
         </Typography>
         <Grid container spacing={4}>
           {projects.map((project, index) => (
