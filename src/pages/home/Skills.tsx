@@ -27,9 +27,9 @@ export default function Skills() {
       description: t('skills.technical.java.description'),
     },
     {
-      name: t('skills.technical.springBoot.name'),
-      icon: "/spring-boot.png",
-      description: t('skills.technical.springBoot.description'),
+      name: t('skills.technical.laravel.name'),
+      icon: "/laravel.svg",
+      description: t('skills.technical.laravel.description'),
     },
     {
       name: t('skills.technical.python.name'),

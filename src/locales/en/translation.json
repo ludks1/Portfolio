@@ -28,9 +28,9 @@
         "name": "Java",
         "description": "Developed backend systems and desktop applications using object-oriented programming"
       },
-      "springBoot": {
-        "name": "Spring Boot",
-        "description": "Created RESTful APIs and managed data persistence in full-stack web applications"
+      "laravel": {
+        "name": "Laravel",
+        "description": "Turned business logic into Laravel-based solutions with secure APIs and clean architecture."
       },
       "python": {
         "name": "Python",

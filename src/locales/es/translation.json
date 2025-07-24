@@ -28,9 +28,9 @@
         "name": "Java",
         "description": "Desarrollé sistemas backend y aplicaciones de escritorio usando programación orientada a objetos"
       },
-      "springBoot": {
-        "name": "Spring Boot",
-        "description": "Creé APIs RESTful y gestioné la persistencia de datos en aplicaciones web full-stack"
+      "laravel": {
+        "name": "Laravel",
+        "description": "Convertí lógica de negocio en soluciones basadas en Laravel, con APIs seguras y una arquitectura limpia."
       },
       "python": {
         "name": "Python",
