@@ -4,6 +4,7 @@ import App from "./App.tsx";
 import theme from "./styles/theme.ts";
 import { ThemeProvider } from "@mui/material/styles";
 import { CssBaseline, GlobalStyles } from "@mui/material";
+import './i18n';
 
 // Obtén el contenedor raíz
 const container = document.getElementById("root");
