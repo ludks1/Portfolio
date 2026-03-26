@@ -49,7 +49,7 @@ export default function ContactSection() {
   };
 
   // Replace with your WhatsApp number
-  const whatsappNumber = "YOUR_WHATSAPP_NUMBER";
+  const whatsappNumber = "7226574699";
   const whatsappMessage = encodeURIComponent(t('contact.whatsappMessage'));
 
   return (
