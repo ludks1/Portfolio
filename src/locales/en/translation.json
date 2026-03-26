@@ -34,8 +34,8 @@
     "viewCode": "Code",
     "liveDemo": "Demo",
     "appointmentSystem": {
-      "name": "Appointment Management System",
-      "description": "Complete development of a booking system with authentication, admin panel and real-time notifications."
+      "name": "Café & Co",
+      "description": "Modern landing page for an artisanal coffee shop with interactive menu, integrated location, and WhatsApp ordering button."
     },
     "analyticsDashboard": {
       "name": "Analytics Dashboard",

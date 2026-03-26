@@ -15,31 +15,15 @@ import { useTranslation } from 'react-i18next';
 
 export default function Projects() {
   const { t } = useTranslation();
-  
+
   const projects = [
     {
       name: t('projects.appointmentSystem.name'),
       description: t('projects.appointmentSystem.description'),
-      stack: ["Laravel", "Livewire", "MySQL"],
-      image: "/laravel.svg",
-      link: "https://github.com/ludks1",
-      demo: null,
-    },
-    {
-      name: t('projects.analyticsDashboard.name'),
-      description: t('projects.analyticsDashboard.description'),
-      stack: ["React", "TypeScript", "Chart.js"],
-      image: "/react.png",
-      link: "https://github.com/ludks1",
-      demo: null,
-    },
-    {
-      name: t('projects.ecommerceAPI.name'),
-      description: t('projects.ecommerceAPI.description'),
-      stack: ["Java", "Spring Boot", "PostgreSQL"],
-      image: "/java.png",
-      link: "https://github.com/ludks1",
-      demo: null,
+      stack: ["React", "TailwindCSS"],
+      image: "/react.svg",
+      link: "https://github.com/ludks1/cafe-and-co",
+      demo: "https://v0-cafe-and-co.vercel.app/",
     },
   ];
 
@@ -52,7 +36,7 @@ export default function Projects() {
         <Typography variant="body1" sx={{ mb: 4, color: theme.palette.text.primary }}>
           {t('projects.subtitle')}
         </Typography>
-        
+
         <Grid container spacing={4}>
           {projects.map((project, index) => (
             <Grid item xs={12} sm={6} md={4} key={index}>
