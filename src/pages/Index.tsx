@@ -1,8 +1,10 @@
 import { Container } from "@mui/material";
 import Footer from "../components/shared/Footer";
 import Navbar from "../components/shared/Navbar";
+import FloatingCTA from "../components/shared/FloatingCTA";
 import HeroSection from "./home/HeroSection";
 import AboutSection from "./home/AboutSection";
+import WhyHireMeSection from "./home/WhyHireMeSection";
 import Skills from "./home/Skills";
 import ContactSection from "./home/ContactSection";
 import Projects from "./home/ProjectsSection";
@@ -17,10 +19,20 @@ export default function Index() {
   const sectionRef = {
     HOME: useRef<HTMLElement>(null),
     ABOUT: useRef<HTMLElement>(null),
+    WHYHIREME: useRef<HTMLElement>(null),
     SKILLS: useRef<HTMLElement>(null),
     PORTFOLIO: useRef<HTMLElement>(null),
     CV: useRef<HTMLElement>(null),
   };
+
+  const scrollToProjects = () => {
+    sectionRef.PORTFOLIO.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const scrollToContact = () => {
+    sectionRef.CV.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <>
       <motion.div
@@ -42,12 +54,20 @@ export default function Index() {
         </>
         <Section ref={sectionRef.HOME}>
           <FadeInWhenVisible>
-            <HeroSection />
+            <HeroSection 
+              onScrollToProjects={scrollToProjects}
+              onScrollToContact={scrollToContact}
+            />
           </FadeInWhenVisible>
         </Section>
         <Section ref={sectionRef.ABOUT}>
           <FadeInWhenVisible>
             <AboutSection />
+          </FadeInWhenVisible>
+        </Section>
+        <Section ref={sectionRef.WHYHIREME}>
+          <FadeInWhenVisible>
+            <WhyHireMeSection />
           </FadeInWhenVisible>
         </Section>
         <Section ref={sectionRef.SKILLS}>
@@ -67,6 +87,7 @@ export default function Index() {
         </Section>
         <Footer />
       </Container>
+      <FloatingCTA onScrollToContact={scrollToContact} />
     </>
   );
 }
