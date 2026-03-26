@@ -84,7 +84,7 @@ export default function WhyHireMeSection() {
                   justifyContent: isMobile ? "center" : "flex-start",
                 }}
               >
-                {techIcons.map((tech, index) => (
+                {techIcons.map((tech) => (
                   <motion.div
                     key={tech.name}
                     whileHover={{ scale: 1.15, y: -5 }}
