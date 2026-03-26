@@ -34,8 +34,8 @@
     "viewCode": "Codigo",
     "liveDemo": "Demo",
     "appointmentSystem": {
-      "name": "Sistema de Gestion de Turnos",
-      "description": "Desarrollo completo de un sistema de reservas con autenticacion, panel admin y notificaciones en tiempo real."
+      "name": "Café & Co",
+      "description": "Landing page moderna para cafetería artesanal con menú interactivo, ubicación integrada y botón de pedido por WhatsApp."
     },
     "analyticsDashboard": {
       "name": "Dashboard Analitico",
