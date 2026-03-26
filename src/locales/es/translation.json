@@ -1,90 +1,135 @@
 {
   "hero": {
-    "title": "Estudiante de Ingeniería de Software",
-    "description": "Transformo ideas en soluciones web modernas y funcionales.",
-    "altText": "Ludwind Rotstein"
+    "title": "Egresado de Ingenieria en Software | Fullstack Developer",
+    "subtitle": "Laravel - React - Java",
+    "description": "Convierto ideas en soluciones web modernas. Disponible para proyectos freelance.",
+    "altText": "Ludwind Rotstein",
+    "viewProjects": "Ver Proyectos",
+    "contactMe": "Contactame"
   },
   "about": {
     "title": "Conoceme",
-    "description": "Soy Ludwind, un Ingeniero de Software apasionado por construir soluciones tecnológicas innovadoras. Me enfoco en desarrollar productos de alta calidad que resuelvan problemas reales y aporten valor. Siempre aprendiendo, siempre creando."
+    "description": "Soy Ludwind, un Ingeniero de Software apasionado por construir soluciones tecnologicas innovadoras. Me enfoco en desarrollar productos de alta calidad que resuelvan problemas reales y aporten valor. Siempre aprendiendo, siempre creando."
+  },
+  "whyHireMe": {
+    "title": "Por que contratarme",
+    "badge": "Egresado - Ingenieria en Software",
+    "description": "Soy egresado de Ingenieria en Software con experiencia fullstack comprobada. Mi formacion academica me dio bases solidas en arquitectura de software, diseno de bases de datos y buenas practicas de desarrollo. Actualmente trabajo con Java en entornos empresariales, mientras que mi especialidad en Laravel/Livewire me permite construir backend robusto y eficiente. Complemento mi perfil con React para frontends modernos y dinamicos. + Ingles fluido = comunicacion sin barreras para proyectos internacionales.",
+    "highlight1": {
+      "title": "Bases Solidas",
+      "description": "Formacion academica en arquitectura de software y buenas practicas"
+    },
+    "highlight2": {
+      "title": "Experiencia Fullstack",
+      "description": "Frontend con React, Backend con Laravel y Java"
+    },
+    "highlight3": {
+      "title": "Ingles Fluido",
+      "description": "Comunicacion efectiva para proyectos internacionales"
+    }
   },
   "projects": {
     "title": "Proyectos",
-    "taskManager": {
-      "name": "Gestor de Tareas",
-      "description": "Este proyecto está actualmente en desarrollo."
+    "subtitle": "Una seleccion de proyectos que demuestran mis habilidades y experiencia",
+    "viewCode": "Codigo",
+    "liveDemo": "Demo",
+    "appointmentSystem": {
+      "name": "Sistema de Gestion de Turnos",
+      "description": "Desarrollo completo de un sistema de reservas con autenticacion, panel admin y notificaciones en tiempo real."
+    },
+    "analyticsDashboard": {
+      "name": "Dashboard Analitico",
+      "description": "Visualizacion de datos en tiempo real con graficos interactivos y consumo de API REST."
+    },
+    "ecommerceAPI": {
+      "name": "API REST para E-commerce",
+      "description": "Backend escalable con autenticacion JWT, manejo de inventario y documentacion con Swagger."
     }
   },
   "skills": {
     "title": "Habilidades",
-    "technicalSkills": "Habilidades Técnicas",
+    "technicalSkills": "Habilidades Tecnicas",
     "softSkills": "Habilidades Blandas",
     "technical": {
       "react": {
         "name": "React TSX",
-        "description": "Construí interfaces responsivas basadas en componentes usando React y TypeScript"
+        "description": "Construi interfaces responsivas basadas en componentes usando React y TypeScript"
       },
       "java": {
         "name": "Java",
-        "description": "Desarrollé sistemas backend y aplicaciones de escritorio usando programación orientada a objetos"
+        "description": "Desarrolle sistemas backend y aplicaciones de escritorio usando programacion orientada a objetos"
       },
       "laravel": {
         "name": "Laravel",
-        "description": "Convertí lógica de negocio en soluciones basadas en Laravel, con APIs seguras y una arquitectura limpia."
+        "description": "Converti logica de negocio en soluciones basadas en Laravel, con APIs seguras y una arquitectura limpia."
       },
       "python": {
         "name": "Python",
-        "description": "Trabajé en proyectos de visión artificial y análisis de datos"
+        "description": "Trabaje en proyectos de vision artificial y analisis de datos"
       },
       "webDev": {
         "name": "Desarrollo Web",
-        "description": "Diseñé y construí páginas web con HTML, CSS y JavaScript"
+        "description": "Disene y construi paginas web con HTML, CSS y JavaScript"
       },
       "sql": {
         "name": "SQL",
-        "description": "Gestioné bases de datos relacionales y escribí consultas para el manejo de datos"
+        "description": "Gestione bases de datos relacionales y escribi consultas para el manejo de datos"
       }
     },
     "soft": {
       "problemSolving": {
-        "name": "Resolución de Problemas",
-        "description": "Disfruto enfrentando desafíos complejos y mejorando continuamente mis habilidades, ya sea a través de desafíos de programación o trabajando en mis proyectos personales."
+        "name": "Resolucion de Problemas",
+        "description": "Disfruto enfrentando desafios complejos y mejorando continuamente mis habilidades, ya sea a traves de desafios de programacion o trabajando en mis proyectos personales."
       },
       "teamwork": {
         "name": "Trabajo en Equipo",
-        "description": "He trabajado con equipos interdisciplinarios, contribuyendo a la integración y mantenimiento de sistemas mientras aseguro una comunicación fluida y flujos de trabajo eficientes."
+        "description": "He trabajado con equipos interdisciplinarios, contribuyendo a la integracion y mantenimiento de sistemas mientras aseguro una comunicacion fluida y flujos de trabajo eficientes."
       },
       "selfLearning": {
         "name": "Autoaprendizaje",
-        "description": "Me considero un autodidacta que prospera adquiriendo nuevos conocimientos. Aprender Spring Boot, React.tsx, Java y Python me ha enseñado a adaptarme rápidamente y mantenerme actualizado con las últimas tecnologías."
+        "description": "Me considero un autodidacta que prospera adquiriendo nuevos conocimientos. Aprender Spring Boot, React.tsx, Java y Python me ha ensenado a adaptarme rapidamente y mantenerme actualizado con las ultimas tecnologias."
       },
       "adaptability": {
         "name": "Adaptabilidad",
-        "description": "Me mantengo comprometido con mis objetivos, supero obstáculos y sigo avanzando ya sea en programación, aprendizaje o crecimiento personal."
+        "description": "Me mantengo comprometido con mis objetivos, supero obstaculos y sigo avanzando ya sea en programacion, aprendizaje o crecimiento personal."
       },
       "organization": {
-        "name": "Organización de Proyectos",
-        "description": "Trabajé liderando un equipo de cinco personas en el desarrollo de un sistema de programación, lo que me enseñó cómo planificar, priorizar tareas y coordinar efectivamente para cumplir plazos."
+        "name": "Organizacion de Proyectos",
+        "description": "Trabaje liderando un equipo de cinco personas en el desarrollo de un sistema de programacion, lo que me enseno como planificar, priorizar tareas y coordinar efectivamente para cumplir plazos."
       },
       "creativity": {
         "name": "Creatividad",
-        "description": "Disfruto pensar fuera de la caja, convertir ideas en soluciones funcionales y empujar los límites de lo que es posible."
+        "description": "Disfruto pensar fuera de la caja, convertir ideas en soluciones funcionales y empujar los limites de lo que es posible."
       }
     }
   },
   "contact": {
     "title": "Contacto",
-    "description": "¿Quieres saber más sobre mi experiencia y antecedentes? Descarga mi CV a continuación.",
-    "downloadCV": "Descargar CV"
+    "formTitle": "Tienes un proyecto? Hablemos",
+    "description": "Quieres saber mas sobre mi experiencia y antecedentes? Descarga mi CV a continuacion.",
+    "downloadCV": "Descargar CV",
+    "whatsapp": "Chat por WhatsApp",
+    "whatsappMessage": "Hola! Estoy interesado en trabajar contigo en un proyecto.",
+    "otherWays": "Otras formas de conectar",
+    "followMe": "Sigueme",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo electronico",
+      "message": "Mensaje",
+      "send": "Enviar Mensaje"
+    }
   },
   "navbar": {
     "home": "Inicio",
     "about": "Acerca de",
     "skills": "Habilidades",
     "portfolio": "Portafolio",
-    "cv": "CV"
+    "cv": "Contacto"
   },
   "footer": {
     "copyright": "Todos los derechos reservados."
+  },
+  "floatingCTA": {
+    "text": "Contactame"
   }
 }

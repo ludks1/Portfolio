@@ -1,18 +1,49 @@
 {
   "hero": {
-    "title": "Software Engineer Student",
-    "description": "I transform ideas into modern and functional web solutions.",
-    "altText": "Ludwind Rotstein"
+    "title": "Software Engineering Graduate | Fullstack Developer",
+    "subtitle": "Laravel - React - Java",
+    "description": "I turn ideas into modern web solutions. Available for freelance projects.",
+    "altText": "Ludwind Rotstein",
+    "viewProjects": "View Projects",
+    "contactMe": "Contact Me"
   },
   "about": {
     "title": "Know About Me",
     "description": "I'm Ludwind, a Software Engineer passionate about building innovative tech solutions. I focus on developing high-quality products that solve real problems and deliver value. Always learning, always creating."
   },
+  "whyHireMe": {
+    "title": "Why Hire Me",
+    "badge": "Software Engineering Graduate",
+    "description": "I'm a Software Engineering graduate with proven fullstack experience. My academic training gave me solid foundations in software architecture, database design, and development best practices. I currently work with Java in enterprise environments, while my specialty in Laravel/Livewire allows me to build robust and efficient backends. I complement my profile with React for modern and dynamic frontends. + Fluent English = barrier-free communication for international projects.",
+    "highlight1": {
+      "title": "Solid Foundations",
+      "description": "Academic training in software architecture and best practices"
+    },
+    "highlight2": {
+      "title": "Fullstack Experience",
+      "description": "Frontend with React, Backend with Laravel and Java"
+    },
+    "highlight3": {
+      "title": "Fluent English",
+      "description": "Effective communication for international projects"
+    }
+  },
   "projects": {
     "title": "Projects",
-    "taskManager": {
-      "name": "Task Manager",
-      "description": "This project is currently under development."
+    "subtitle": "A selection of projects that showcase my skills and experience",
+    "viewCode": "Code",
+    "liveDemo": "Demo",
+    "appointmentSystem": {
+      "name": "Appointment Management System",
+      "description": "Complete development of a booking system with authentication, admin panel and real-time notifications."
+    },
+    "analyticsDashboard": {
+      "name": "Analytics Dashboard",
+      "description": "Real-time data visualization with interactive charts and REST API consumption."
+    },
+    "ecommerceAPI": {
+      "name": "E-commerce REST API",
+      "description": "Scalable backend with JWT authentication, inventory management and Swagger documentation."
     }
   },
   "skills": {
@@ -74,17 +105,31 @@
   },
   "contact": {
     "title": "Contact",
+    "formTitle": "Have a project? Let's talk",
     "description": "Want to know more about my background and experience? Download my CV below.",
-    "downloadCV": "Download CV"
+    "downloadCV": "Download CV",
+    "whatsapp": "Chat on WhatsApp",
+    "whatsappMessage": "Hi! I'm interested in working with you on a project.",
+    "otherWays": "Other ways to connect",
+    "followMe": "Follow me",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send Message"
+    }
   },
   "navbar": {
     "home": "Home",
     "about": "About",
     "skills": "Skills",
     "portfolio": "Portfolio",
-    "cv": "CV"
+    "cv": "Contact"
   },
   "footer": {
     "copyright": "All rights reserved."
+  },
+  "floatingCTA": {
+    "text": "Contact Me"
   }
 }
